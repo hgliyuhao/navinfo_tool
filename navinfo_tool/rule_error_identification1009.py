@@ -8,7 +8,7 @@ import csv
 import collections
 from tqdm import tqdm
 from xlsxwriter.workbook import Workbook
-import end_words, same_stroke
+from navinfo_tool import end_words, same_stroke
 
 pinyin = Pinyin()
 
